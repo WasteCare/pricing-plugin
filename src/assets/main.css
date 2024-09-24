@@ -1,0 +1,11 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.entry-content
+  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(
+    .woocommerce
+  ) {
+  width: 100%;
+  max-width: 100%;
+}
